@@ -1,0 +1,31 @@
+<!DOCTYPE html> <!-- Declares the document type and version of HTML -->
+<html lang="en"> <!-- Specifies the language of the document -->
+<head>
+    <meta charset="UTF-8"> <!-- Sets the character encoding of the document to UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Sets viewport properties for responsive design -->
+    <title>Document</title> <!-- Sets the title of the document -->
+    <style>
+        body {
+            background-color: lawngreen; /* Sets the background color of the body */
+        }
+        @media only screen and (max-width: 600px) {
+            body {
+                background-color: lightskyblue; /* Sets background color for screens with max width of 600px */
+            }
+        }
+        video {
+            width: 100%; /* Sets the width of the video element to 100% */
+            height: auto; /* Sets the height of the video element to auto to maintain aspect ratio */
+        }
+        audio {
+            width: 100%; /* Sets the width of the audio element to 100% */
+            height: auto; /* Sets the height of the audio element to auto to maintain aspect ratio */
+        }
+    </style>
+</head>
+<body>
+    <h1>Entri APP</h1> <!-- Main heading of the page -->
+    <video src="Video.mp4.mp4" type="video/mp4"></video> <!-- Video element with a source and type attribute -->
+    <audio controls src="Audio1.mp4" type="Audio1/mp4"></audio> <!-- Audio element with a controls attribute and source and type attributes -->
+</body>
+</html>

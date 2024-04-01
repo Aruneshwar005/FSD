@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Input/Output Devices</title>
+</head>
+<body>
+    <h1>Input/Output Devices</h1>
+    <dl> <!-- Definition list -->
+        <dt>Mouse</dt> <!-- Term -->
+        <dd>Mouse is an input device and also known as a pointing device.</dd> <!-- Definition -->
+        <dt>Printer</dt> <!-- Term -->
+        <dd>Printer is an output device which provides a hard copy of the output.</dd> <!-- Definition -->
+        <dt>Monitor</dt> <!-- Term -->
+        <dd>Monitor is an output device which provides a soft copy of the output.</dd> <!-- Definition -->
+    </dl>
+</body>
+</html>

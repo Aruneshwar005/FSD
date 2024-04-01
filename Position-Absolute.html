@@ -1,0 +1,43 @@
+<!DOCTYPE html> <!-- Declares the document type and version of HTML -->
+<html lang="en"> <!-- Specifies the language of the document -->
+<head>
+    <meta charset="UTF-8"> <!-- Sets the character encoding of the document to UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Sets viewport properties for responsive design -->
+    <title>Document</title> <!-- Sets the title of the document -->
+    <style>
+        .main {
+            background-color: aliceblue; /* Sets the background color of the main container */
+            height: 500px; /* Sets the height of the main container */
+            width: 500px; /* Sets the width of the main container */
+            position: relative; /* Sets the positioning context for absolutely positioned child elements */
+        }
+        .box1 {
+            background-color: rgb(0, 125, 35); /* Sets the background color of box1 */
+            height: 200px; /* Sets the height of box1 */
+            width: 200px; /* Sets the width of box1 */
+            position: absolute; /* Positions box1 relative to the main container */
+            top: 20px; /* Sets the top position of box1 */
+            left: 20px; /* Sets the left position of box1 */
+        }
+        .box2 {
+            background-color: rgb(125, 0, 42); /* Sets the background color of box2 */
+            height: 200px; /* Sets the height of box2 */
+            width: 200px; /* Sets the width of box2 */
+            /* By default, box2 will be positioned relative to its normal flow position within the main container */
+        }
+        .box3 {
+            background-color: rgb(25, 0, 125); /* Sets the background color of box3 */
+            height: 200px; /* Sets the height of box3 */
+            width: 200px; /* Sets the width of box3 */
+            /* By default, box3 will be positioned relative to its normal flow position within the main container */
+        }
+    </style>
+</head>
+<body>
+    <div class="main"> <!-- Main container -->
+        <div class="box1">box1</div> <!-- First box within the main container -->
+        <div class="box2">box2</div> <!-- Second box within the main container -->
+        <div class="box3">box3</div> <!-- Third box within the main container -->
+    </div>
+</body>
+</html>

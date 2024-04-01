@@ -1,0 +1,31 @@
+<!DOCTYPE html> <!-- Declares the document type and version of HTML -->
+<html lang="en"> <!-- Specifies the language of the document -->
+<head>
+    <meta charset="UTF-8"> <!-- Sets the character encoding of the document to UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Sets viewport properties for responsive design -->
+    <title>Document</title> <!-- Sets the title of the document -->
+    <style>
+        .animate {
+            width: 200px; /* Sets the width of the animated element */
+            height: 100px; /* Sets the height of the animated element */
+            background-color: blue; /* Sets the initial background color of the animated element */
+            margin: auto; /* Centers the animated element horizontally */
+            padding: 20px; /* Sets padding inside the animated element */
+            animation-name: animation; /* Specifies the name of the animation */
+            animation-duration: 5s; /* Sets the duration of the animation to 5 seconds */
+            animation-iteration-count: infinite; /* Sets the animation to repeat infinitely */
+        }
+        @keyframes animation {
+            from {
+                background-color: blue; /* Specifies the initial background color of the animated element */
+            }
+            to {
+                background-color: brown; /* Specifies the final background color of the animated element */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="animate"></div> <!-- Animated element with the "animate" class -->
+</body>
+</html>

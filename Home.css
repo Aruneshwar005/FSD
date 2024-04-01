@@ -1,0 +1,89 @@
+/* Resets default margin, padding, and box-sizing for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif; /* Sets default font family */
+}
+
+/* Styles for elements with class "port" */
+.port {
+    position: relative; /* Positions relative to normal flow */
+    font-size: 25px; /* Sets font size */
+    color: #800080; /* Sets text color */
+    text-decoration: none; /* Removes text decoration */
+    font-weight: 600; /* Sets font weight */
+}
+
+/* Styles for <header> element */
+header {
+    position: relative; /* Positions relative to normal flow */
+    top: 0;
+    left: 0;
+    background: transparent; /* Sets background color */
+    height: 50px; /* Sets height */
+    width: 100%; /* Sets width */
+    padding: 20px 10%; /* Sets padding */
+    display: flex; /* Displays as flex container */
+    justify-content: space-between; /* Aligns items with space between */
+    align-items: center; /* Aligns items vertically at the center */
+}
+
+/* Styles for navigation links */
+nav a {
+    font-weight: 500; /* Sets font weight */
+    margin-left: 35px; /* Sets left margin */
+}
+
+/* Hover styles for navigation links */
+nav a:hover {
+    color: #800080; /* Changes text color on hover */
+}
+
+/* Styles for the Home section */
+.Home {
+    position: relative; /* Positions relative to normal flow */
+    width: 100%; /* Sets width */
+    justify-content: space-between; /* Aligns items with space between */
+    height: 100vh; /* Sets height to 100% of viewport height */
+    background-image: url('xx.jpeg'); /* Sets background image */
+    background-size: cover; /* Scales background image to cover */
+    background-position: right; /* Positions background image to the right */
+    display: flex; /* Displays as flex container */
+    align-items: center; /* Aligns items vertically at the center */
+    padding: 70px 10%; /* Sets padding */
+}
+
+/* Styles for social media links in Home section */
+.home-sci a {
+    display: inline-flex; /* Displays as inline flex container */
+    justify-content: center; /* Aligns items horizontally at the center */
+    align-items: center; /* Aligns items vertically at the center */
+    width: 40px; /* Sets width */
+    height: 40px; /* Sets height */
+    background: transparent; /* Sets background color */
+    border: 2px solid #0ef; /* Sets border */
+    border-radius: 50px; /* Sets border radius to create circular shape */
+    font-size: 20px; /* Sets font size */
+    color: #0ef; /* Sets text color */
+    text-decoration: none; /* Removes text decoration */
+    margin: 30px 15px 30px 0; /* Sets margin */
+}
+
+/* Hover styles for social media links in Home section */
+.home-sci a:hover {
+    background: #0ef; /* Changes background color on hover */
+    color: rgb(221, 224, 14); /* Changes text color on hover */
+}
+
+/* Styles for button */
+.btn-box {
+    display: inline-block; /* Displays as inline block */
+    padding: 12px 28px; /* Sets padding */
+    background: #0ef; /* Sets background color */
+    font-size: 16px; /* Sets font size */
+    color: black; /* Sets text color */
+    letter-spacing: 1px; /* Sets letter spacing */
+    text-decoration: none; /* Removes text decoration */
+    font-weight: 600; /* Sets font weight */
+}

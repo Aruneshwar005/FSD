@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<head>
+    <!-- Title of the document -->
+    <title>Registration Form</title>
+    <!-- Internal CSS styles -->
+    <style>
+        /* Styling for the body */
+        body {
+            text-align: left; /* Align content to the left */
+            padding: 20px; /* Add padding for spacing */
+        }
+        /* Styling for the table */
+        table {
+            margin: auto; /* Center-align the table */
+            height: 200px; /* Set the height of the table */
+            width: 500px; /* Set the width of the table */
+        }
+        /* Styling for table header and data cells */
+        th, td {
+            padding: 20px; /* Add padding to the cells */
+        }
+    </style>
+</head>
+<body>
+    <!-- Heading for the registration form -->
+    <h1 style="text-align:center;">Registration Form</h1>
+    <!-- Start of the form inside a table -->
+    <table border="1">
+        <!-- Start of the form fields -->
+        <form>
+            <!-- Form fields as table rows -->
+            <tr>
+                <!-- Label for student name -->
+                <td>
+                    <label>Student Name</label>
+                </td>
+                <!-- Input field for student name -->
+                <td>
+                    <input type="text" name="name" value="">
+                </td>
+            </tr>
+            <!-- Repeat the above structure for other form fields -->
+            <tr>
+                <td>
+                    <label>Father's Name</label>
+                </td>
+                <td>
+                    <input type="text" name="name" value="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Mother's Name</label>
+                </td>
+                <td>
+                    <input type="text" name="name" value="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Date of Birth</label>
+                </td>
+                <td>
+                    <input type="date">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Gender</label>
+                </td>
+                <td>
+                    <!-- Radio buttons for gender selection -->
+                    <input type="radio" name="gender">Male
+                    <input type="radio" name="gender">Female
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Phone Number</label>
+                </td>
+                <td>
+                    <input type="number" name="age" value="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Email ID</label>
+                </td>
+                <td>
+                    <input type="email" name="email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Address</label>
+                </td>
+                <td>
+                    <!-- Textarea for entering address -->
+                    <textarea cols="30" rows="3">please enter your address</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>State</label>
+                </td>
+                <td>
+                    <input type="State" name="state">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>City</label>
+                </td>
+                <td>
+                    <input type="city" name="city">
+                </td>
+            </tr>
+            <!-- Button to submit the form -->
+            <tr>
+                <td><br>
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+        </form>
+        <!-- End of the form -->
+    </table>
+    <!-- End of the table -->
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html> <!-- Declares the document type and version of HTML -->
+<html lang="en"> <!-- Specifies the language of the document -->
+<head>
+    <meta charset="UTF-8"> <!-- Sets the character encoding of the document to UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Sets viewport properties for responsive design -->
+    <title>Document</title> <!-- Sets the title of the document -->
+    <style>
+        body {
+            background-color: black; /* Sets the background color of the body */
+            height: 100vh; /* Sets the height of the body to 100% of the viewport height */
+            display: flex; /* Turns the body into a flex container */
+            overflow: hidden; /* Hides any overflowing content */
+        }
+        .spinner {
+            background-color: transparent; /* Sets the background color of the spinner */
+            height: 10em; /* Sets the height of the spinner */
+            width: 10em; /* Sets the width of the spinner */
+            margin: auto; /* Centers the spinner horizontally and vertically */
+            border-radius: 50%; /* Makes the spinner round by setting a border-radius of 50% */
+            border-top: 1em solid blue; /* Creates the top part of the spinner with a blue color */
+            border-right: 1em solid transparent; /* Creates the right part of the spinner with a transparent color */
+            animation: spinner 2s infinite; /* Applies the spinner animation to rotate it */
+        }
+        @keyframes spinner {
+            100% {
+                transform: rotate(360deg); /* Rotates the spinner 360 degrees */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="spinner"></div> <!-- Spinner element with the "spinner" class -->
+</body>
+</html>

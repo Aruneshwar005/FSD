@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<head>
+    <!-- Title of the document -->
+    <title>RegisterForm</title>
+    <!-- Internal CSS styles -->
+    <style>
+        /* Styling for the table */
+        table {
+            margin: auto; /* Center-align the table */
+            height: 200px; /* Set the height of the table */
+            width: 500px; /* Set the width of the table */
+        }
+        /* Styling for table header and data cells */
+        th, td {
+            padding: 20px; /* Add padding to the cells */
+        }
+    </style>
+</head>
+<body>
+    <!-- Heading for the registration form -->
+    <h1 style="text-align: center;">Employee RegisterForm</h1>
+    <!-- Start of the form inside a table -->
+    <table border="1">
+        <!-- Start of the form fields -->
+        <form>
+            <!-- Form fields as table rows -->
+            <tr>
+                <td><label>Name:</label></td>
+                <td><input type="text" name="name" value=""><br></td>
+            </tr>
+            <tr>
+                <td><label>Age:</label></td>
+                <td><input type="number" name="age" value=""></td><br>
+            </tr>
+            <tr>
+                <td><label>Address:</label></td>
+                <td><textarea cols="30" rows="3">please enter your address</textarea></td>
+            </tr>
+            <tr>
+                <td><label>Sex:</label><br></td>
+                <td>
+                    <!-- Radio buttons for gender selection -->
+                    <input type="radio" name="sex"><label>female</label>
+                    <input type="radio" name="sex"><label>male</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Language:</label></td>
+                <td>
+                    <!-- Checkboxes for language selection -->
+                    <input type="checkbox" name="Language"><label>English</label>
+                    <input type="checkbox" name="Language"><label>Tamil</label>
+                    <input type="checkbox" name="Language"><label>Hindi</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Email:</label></td>
+                <td><input type="email" name="email"><br></td>
+            </tr>
+            <tr>
+                <td><label>Qualification:</label></td>
+                <td>
+                    <!-- Dropdown menu for qualification selection -->
+                    <select>
+                        <option>pleaseselect</option>
+                        <option>B.sc</option>
+                        <option>M.sc</option>
+                        <option>BE</option>
+                        <option>B.tech</option>
+                        <option>MCA</option>
+                        <option>Bcom</option>
+                    </select><br>
+                </td>
+            </tr>
+            <!-- Button to submit the form -->
+            <tr>
+                <td><input type="submit" value="Register"></td>
+            </tr>
+        </form>
+        <!-- End of the form -->
+    </table>
+    <!-- End of the table -->
+</body>
